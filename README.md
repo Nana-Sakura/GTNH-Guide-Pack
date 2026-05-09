@@ -29,12 +29,6 @@ Quick Start
 3. Test locally with GuideNH live preview (see GuideNH repo for preview tool) or package into a resource pack and drop into the client resourcepacks/ directory.
 4. Submit content via PR to this repository or another GuideNH-enabled project.
 
-Quick Start (Server Admin / Pack Maintainer)
-----
-- Include this repo’s docs and assets/ in your modpack resource pack or automation pipeline.
-- Make sure GuideNH is installed on the client and server-side hooks are configured if needed.
-- Use the recommended localization directory to provide translations; the framework will fall back to English.
-
 Authoring Conventions
 ----
 - File format: Markdown (UTF-8), begin each page with a top-level H1.
@@ -70,12 +64,6 @@ For full license text, check LICENSE.txt or go to [Creative Commons](https://cre
 Credits
 ----
 Thanks to the GT:NH community for inspiration and to all contributors building documentation and tooling to make GT:NH more accessible.
-
-Thanks to [GuideME](https://github.com/AppliedEnergistics/GuideME), distributed under [LGPL-3.0](https://github.com/AppliedEnergistics/GuideME/blob/main/LICENSE)
-
-This project also uses several open-source libraries, including SnakeYAML, Apache Lucene, Apache Commons Lang, FlatBuffers Java, and JLaTeXMath.
-
-These libraries are distributed under their respective licenses, primarily Apache License 2.0 and GPL v2.
 
 Disclaimer
 ----
